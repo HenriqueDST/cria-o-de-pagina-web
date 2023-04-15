@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 2</title>
+</head>
+<body>
+    <h2>uma tabela simples</h2>
+    <table border="1">
+<tr>    
+    <td>linha</td>
+    <td> linha</td>
+</tr>
+<tr>
+    <td> linha</td>
+    <td> linha</td>
+</tr>    
+    </table>
+    <h2>uma tabela simples com cabeçalho e roda pe</h2>
+    <table border="1">
+            <thead> 
+                    <tr>
+                        <th> linha</th>
+                        <td colspan="2"> 123linha</td> 
+                    </tr>
+            </thead>
+            <tbody>
+                    <tr> 
+                        <td rowspan="2"> 3</td>
+                        <td rowspan="2"> 3</td>
+                        <td rowspan="2">3</td>
+                    </tr>
+            </tbody>
+            <tfoot> 
+                <tr> 
+                    <td> 2</td>
+                    <td> 2</td>
+                </tr>
+            </tfoot>
+
+    </table>
+    <form action="#" mathod="get">
+        <label for="nome">nome completo</label>
+        <input type="text" name="nome" placeholder="nome">
+        <br />
+        <br />
+        <label for="senha"> senha</label>
+        
+        <input type="password" name="senha" placeholder="senha">
+        <br />
+        <br />
+        <label for="e-mail">e-mail</label>
+        <input type="email" name="e-mail" placeholder="insira seu e-mail">
+        <button> enviar</button>
+        <label for="data">data</label>
+        <input type="date" nome="data" placeholder="dd/mm/aaa">
+        <fieldset>
+            <legend>selecione uma</legend>
+            <input type="checkbox" nome="louco" value="f">
+            <label for="louco">louco</label>
+            <input type="radio" name="navegador" value="Google" id="google">
+            <label for="google"></label>
+            <input type="radio" name="navegador" value="opera" id="opera">
+            <label for="opera">opera</label>
+            <input type="submit" value="enviar">
+        </fieldset>
+        <fieldset> 
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
