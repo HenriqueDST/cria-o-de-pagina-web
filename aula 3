@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="cabeca">
+    <div id="logo">
+        <img src="logo.jpg" alt="" height="100px">
+
+    </div>
+    <div class="pesquisar">
+        <input type="text" placeholder="buscar" >
+        <img src="lupa.png" alt="">
+    </div>
+    <div classe="texto">
+        <p>entrar ou cadastrar</p>
+        <p><img src="carrinho.png" alt="" height="20px" ></p>
+    </div>
+        <div class="contato">
+            <p>Contato</p>
+        </div>
+        <div class="local">
+            Trabalhe conosco
+        </div>
+        <div class="info">
+            quem somos nós
+        </div>
+    </div> 
+      
+     </header>
+        <div class="catalogo">
+                <div class="catalogo1">
+                    Catalogo 1
+                </div>
+                <div class="catalogo2">
+                    Catalogo 2
+                </div>
+                <div class="catalogo2">
+                    Catalogo 3
+                </div>
+                <div class="catalogo2">
+                    Catalogo 4
+                </div>
+            </div>
+     <main>
+            <div class="menu">
+                <div class="pneu">
+                    <img src="bicicleta.jpg" alt="">
+                </br>  bicleta pro next
+            </br><button>Compre aqui</button>
+           
+
+                </div>
+                <div class="pneu">
+                    <img src="pneu.jpg" alt="">
+                </br>pneus aro 15 
+            </br>  <Button>Compre aqui</Button>
+                </div>
+                <div class="pneu">
+                    <img src="basca.jpg" alt="">
+                </br>bola de basquete de couro 
+            </br>  <Button>Compre aqui</Button>
+                </div>
+                <div class="pneu">
+                    <img src="canetas.jpg" alt="">
+                </br>canetas bic
+            </br>  <Button>Compre aqui</Button>
+                </div>
+                <div class="pneu">
+                    <img src="peso.jpg" alt="">
+                </br>peso de 50kg 
+            </br>  <Button>Compre aqui</Button>
+                </div>
+                <div class="pneu">
+                    <img src="aro.jpg" alt="">
+                </br>aro para basquete 
+            </br>  <Button>Compre aqui</Button>
+                </div>
+
+            </div>
+     </main>
+     <main>
+        <div class="menu">
+            <div class="pneu">
+                <img src="garrafa.jpg" alt="">
+            </br>  garrafa para tomar agua
+        </br><button>Compre aqui</button>
+       
+
+            </div>
+            <div class="pneu">
+                <img src="palmeiras.jpg" alt="">
+            </br> a bola que nunca sera comprada
+        </br>  <Button>Compre aqui</Button>
+            </div>
+            <div class="pneu">
+                <img src="maçarico.jpg" alt="">
+            </br> maçarico para cozinhar
+        </br>  <Button>Compre aqui</Button>
+            </div>
+            <div class="pneu">
+                <img src="teclado.jpg" alt="">
+            </br>teclado mecanico redragon
+        </br>  <Button>Compre aqui</Button>
+            </div>
+            <div class="pneu">
+                <img src="faca.jpg" alt="">
+            </br>faca tramontina
+        </br>  <Button>Compre aqui</Button>
+            </div>
+            <div class="pneu">
+                <img src="saco.jpg" alt="">
+            </br>saco de pancada
+        </br>  <Button>Compre aqui</Button>
+            </div>
+
+        </div>
+ </main>
+ <section>
+    <div class="filtro">
+        Filtro
+        <input type="checkbox" placeholder="mais vendidos">
+        mais vendidos</input>
+        <input type="checkbox">
+        mais confiaveis
+    </input>
+    <input type="checkbox">
+    mais procurados
+    <input type="checkbox">
+    do mais barato ao mais caro
+    <input type="checkbox">
+    do mais caro ao mais barato
+    <input type="text" placeholder="00$ até 99999$?">
+    </div>
+ </section>
+ <footer class="rodape">
+        <div class="seta"> </br> 
+        </br> <button>Mais opções</button> 
+                <img src="seta.png" alt="" height="50px">
+        </div>
+ </footer> 
+
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabeca {
+    display: flex;
+    height: 150px; 
+    background-color: bisque;
+    justify-content: space-evenly;
+}
+.pesquisar input{
+   width: 600px;
+    height: 50px;
+   background-color: white;
+   border-radius:50px;
+   border: none;
+   font-size: 26px;
+   padding-left: 40px;
+}
+.menu {
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.catalogo {
+    background-color:gold;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    display: flex;
+}
+
+.bicicleta{
+    background-color: bisque
+}
+.pneu{
+    background-color: bisque;
+    text-align: center
+}
+button{
+    height: 50px;
+    width: 200px;
+    border-radius:50px;
+    border: none;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    
+}
+.filtro {
+    background-color:burlywood;
+    display: flex;
+    justify-content:space-around;
+    width: 2000px;
+    height: 50px;
+}
+main{
+    background-color:#ffffe0
+}
+footer{
+    background-color: #ffffe0;
+}
